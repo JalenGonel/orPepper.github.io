@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="main.css">
+            
+             <script src="https://www.desmos.com/api/v0.3/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+        </head>
+        
+        
+        <body>
+            
+            <nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+          <li><a href="index.html">Graph</a></li>
+        <li><a href="Triomphe.html">Arch De Triomphe</a></li>
+          <li><a href="Valencia.html">Valencia</a></li>
+          <li><a href="LouisArch.html">St. Louis Arch</a></li>
+      </ul>
+    </div>
+  </nav>
+            
+            <div id="calculator" style="width: 50%; height: 450px; margin-top: 1%;"></div>
+                
+                 <div class="row">
+      <div class="col s6">
+        <div class="card-panel teal">
+            
+            <span class="white-text">Parabolas</div></span>
+
+          </div>
+    </div>
+            
+            </div>
+
+            
+  <script>
+    var elt = document.getElementById('calculator');
+    var calculator = Desmos.Calculator(elt);
+    calculator.setExpression({id:'graph1', latex:'y=x^2'});
+  </script>
+        </body>
+        
+    
+    </html>
